@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #F3F4F6; /* Light Gray */
+  color: #333; /* Dark Gray */
+}
+
+header {
+  background: #1E3A8A; /* Deep Blue */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background: #1E3A8A; /* Deep Blue */
+  padding: 50px 20px;
+  color: white;
+  text-align: center;
+}
+
+.hero-content {
+  flex: 1 1 300px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  padding: 15px 0px;
+}
+
+.hero-content span {
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 0px;
+}
+
+.hero-content .social-icons img {
+  width: 30px;
+  margin: 10px;
+  transition: transform 0.3s;
+  padding: 15px 0px;
+}
+
+.hero-content .social-icons img:hover {
+  transform: scale(1.2);
+}
+
+.hero-image {
+  flex: 1 1 300px;
+  width: 100%;
+  max-width: 400px;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  50% { transform: translateY(-30px); }
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 50px 20px;
+  background: #3B82F6; /* Vibrant Blue */
+  color: white;
+  gap: 0px 30px;
+}
+
+.about h2 {
+  text-decoration: underline;
+  padding: 5px 0px 5px 0px;
+}
+
+.about ul li {
+  padding: 10px 0;
+  margin-left: 30px;
+}
+
+.about img {
+  flex: 1 1 300px;
+  max-width: 400px;
+  width: 200%;
+}
+
+.about div {
+  flex: 1 1 300px;
+  padding: 20px;
+}
+
+.projects {
+  background: #1E3A8A; /* Deep Blue */
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.projects h2 {
+  text-decoration: underline 2.5px;
+  padding: 20px 0px;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+.project-card {
+  background: white;
+  color: #333;
+  width: 250px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: transform 0.3s;
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.project-card p {
+  padding: 15px;
+}
+
+.project-card a {
+  display: block;
+  padding: 10px;
+  background: #3B82F6; /* Vibrant Blue */
+  color: white;
+  text-decoration: none;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.resume {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #3B82F6; /* Light Pink */
+  color: white;
+  align-items: center;
+  text-align: center;
+  padding: 50px 20px;
+  gap: 30px;
+  justify-content: center;
+}
+
+.resume img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.resume img:hover {
+  transform: scale(1.05);
+}
+
+.resume1 {
+  max-width: 400px;
+}
+
+.resume3 {
+  padding-bottom: 20px;
+  text-decoration: underline;
+  font-size: 24px;
+}
+
+.resume4 {
+  text-decoration: underline;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+.contact {
+  background: #1E3A8A; /* Deep Blue */
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.contact p {
+  margin: 25px 0px;
+}
+
+section p a {
+  color: white;
+  text-decoration: underline;
+}
+
+section h2 {
+  text-decoration: underline;
+}
+
+footer {
+  background: #3B82F6; /* Vibrant Blue */
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+@media (max-width: 768px) {
+  nav {
+    display: none;
+    flex-direction: column;
+    background: #333;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  nav.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .resume {
+    padding: 20px 5px;
+  }
+
+  .resume3 {
+    font-size: 18px;
+  }
+
+  .resume img {
+    max-width: 250px;
+  }
+}
