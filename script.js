@@ -9,7 +9,7 @@ const projectsData = [
   {
     image: 'task image.jpg',
     description: 'Built Java projects: Number Guessing Game, Student Grade Calculator, and ATM Interface—strengthening logic, calculation, and user interaction skills.',
-    link: 'https://github.com/abikumard'
+    link: 'https://github.com/abikumard/CODSOFT'
   },
   {
     image: 'chatgpt img 2.png',
