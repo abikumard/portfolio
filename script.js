@@ -8,7 +8,7 @@ menuToggle.addEventListener('click', () => {
 const projectsData = [
   {
     image: 'task image.jpg',
-    description: 'Number Guessing Game, Student Grade Calculator, and ATM Interface—strengthening logic,and user interaction skills.',
+    description: 'Number Guessing Game,Student Grade Calculator,and ATM Interface—strengthening logic,and user interaction skills.',
     link: 'https://github.com/abikumard/CODSOFT'
   },
   {
