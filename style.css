@@ -10,12 +10,12 @@ html {
 }
 
 body {
-  background: #F3F4F6; /* Light Gray */
-  color: #333; /* Dark Gray */
+  background: #121212; /* Dark Background */
+  color: #E0E0E0; /* Light Text for contrast */
 }
 
 header {
-  background: #1E3A8A; /* Deep Blue */
+  background: #000000; /* Black */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -53,7 +53,7 @@ nav a:hover {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  background: #1E3A8A; /* Deep Blue */
+   background: #000000; /* Black */
   padding: 50px 20px;
   color: white;
   text-align: center;
@@ -101,7 +101,7 @@ nav a:hover {
   flex-wrap: wrap;
   align-items: center;
   padding: 50px 20px;
-  background: #3B82F6; /* Vibrant Blue */
+  background: #1f1f1f; /* Light Black */
   color: white;
   gap: 0px 30px;
 }
@@ -128,7 +128,7 @@ nav a:hover {
 }
 
 .projects {
-  background: #1E3A8A; /* Deep Blue */
+  background: #000000; /* Black */
   color: white;
   text-align: center;
   padding: 50px 20px;
@@ -173,7 +173,7 @@ nav a:hover {
 .project-card a {
   display: block;
   padding: 10px;
-  background: #3B82F6; /* Vibrant Blue */
+  background: #1f1f1f; /* Light Black */
   color: white;
   text-decoration: none;
 }
@@ -185,7 +185,7 @@ nav a:hover {
 .resume {
   display: flex;
   flex-wrap: wrap;
-  background-color: #3B82F6; /* Light Pink */
+  background-color: #1f1f1f; /* Light Black */
   color: white;
   align-items: center;
   text-align: center;
@@ -244,7 +244,7 @@ section h2 {
 }
 
 footer {
-  background: #3B82F6; /* Vibrant Blue */
+ background: #1f1f1f; /* Light Black */
   color: white;
   text-align: center;
   padding: 15px;
