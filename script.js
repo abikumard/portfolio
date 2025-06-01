@@ -7,8 +7,8 @@ menuToggle.addEventListener('click', () => {
 
 const projectsData = [
   {
-    image: 'chatgptimg3.png',
-    description: 'Developed a web app for easy doctor appointment bookings, part of the Naan Mudhalvan initiative to improve healthcare access.',
+    image: 'task image.jpg',
+    description: 'Built Java projects: Number Guessing Game, Student Grade Calculator, and ATM Interface—strengthening logic, calculation, and user interaction skills.',
     link: 'https://github.com/abikumard'
   },
   {
